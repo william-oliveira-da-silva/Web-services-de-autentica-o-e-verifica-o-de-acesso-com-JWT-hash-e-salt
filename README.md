@@ -12,8 +12,14 @@ GET /verificar -> Verifica se o token JWT do usuário ainda é válido. No seu b
 
 Os dados do usuário devem ser gravados no MongoDB, utilizando Mongoose, utilizando o seguinte modelo de dados:
 
+
 nome: String
+
+
 email: String
+
 hash: String
+
 salt: String
+
 Todos os campos devem ser obrigatórios.
